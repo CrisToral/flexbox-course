@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>capstone</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/455d664e38.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/455d664e38.js" crossorigin="anonymous"></script>
+    
+    <style>
+        body{
+            margin: 0;
+            font-family: sans-serif;    
+        }
+        .nav-container{
+            display: flex;
+            height: 80px; 
+            background-color:rgba(44, 69, 82, 0.726);
+        }
+        .nav-taggle{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .nav-taggle button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            width: 200px;
+            background-color: rgba(44, 69, 82, 0.726); 
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+        .nav-taggle i{
+            color: aliceblue;
+        }
+        .link-name a{
+            font-size: 2.5;
+            text-decoration: none;
+            color:aliceblue;
+            padding-left: 20px;
+        }
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items:space-between;
+    width: 400x;
+    height: 80px;
+
+}
+.button-left >.link{
+    height: 80px;
+    width: 100px;
+    background-color: black;
+    border-radius: 5px;
+}
+.button-left >.link a{
+    font-size: 2.5;
+    text-decoration: none; 
+    color:aliceblue;
+    padding-left: 20px;
+}
+.nav-links-right{
+    display: flex;
+    justify-content: flex-end;
+    width: 900px;
+    
+}
+.button-right >.link{
+    height: 80px;
+    width: 100px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+.button-right >.link a{
+    font-size: 2.5;
+    text-decoration: none; 
+    color:aliceblue;
+    padding-left: 20px;
+}
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="nav-taggle">
+            <button class="taggle">
+                <a href="" class ="toggle" id="burguer">
+                <i class="fa-solid fa-bars"></i>
+                </a>
+                <div class="link-name">
+                <a href="MyName.html">My Name</a>
+                </div>
+            </button>
+        </div>
+        <div class="nav-links">
+            <div class="button-left">
+                <button class="link">
+                    <a href="Link1.html">Link1</a>
+                </button>
+                <button class="link">
+                    <a href="Link2.html">Link2</a>
+                </button>
+            </div>
+        <div class="nav-links-right">
+            <div class="button-right">
+                <button class="link">
+                    <a href="Link3.html">Link3</a>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
